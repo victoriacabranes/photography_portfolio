@@ -1,19 +1,9 @@
-footer {
-    background-color: gainsboro;
-    height: 10rem;
-}
+@import 'global/variables.scss';
+@import 'global/footer.scss';
+@import 'global/header.scss';
+@import 'globalmediaquery.scss';
+@import 'componentes/button.scss';
+@import 'componentes/fonts.scss';
+@import 'componentes/form.scss';
+@import 'componentes/images.scss';
 
-.carousel-item img {
-    height: 100%;
-    width: 100%;
-}
-
-.container img {
-    height: 100%;
-    width: 100%;
-}
-
-.square {
-    background-color: beige;
-    height: 400px;
-}
