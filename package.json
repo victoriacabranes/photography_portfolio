@@ -1,0 +1,15 @@
+{
+  "author": "Victoria Cabranes",
+  "description": "portfolio ph",
+  "license": "MIT",
+  "name": "photography_portfolio",
+  "scripts": {
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "build:css": "node-sass --output-style compressed scss/style.scss css/styles.css"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
